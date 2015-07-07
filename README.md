@@ -19,3 +19,15 @@ Add the `.button-icon` class to your buttons:
     <i class="fa fa-cog"></i>
 </a>
 ```
+
+### Usage in a Table
+
+Table cells are smaller than buttons, so there's a special case for using the `.button-icon` class in table cells:
+
+```
+<td>
+    <a class="button button-icon">
+        <i class="fa fa-cog"></i>
+    </a>
+</td>
+```
