@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="skeleton-fontawesome-buttons.css">
+  <style>
+  th:last-child, td:last-child {
+    text-align: right;
+  }
+  </style>
 </head>
 <body>
   <a href="https://github.com/nathancahill/skeleton-fontawesome-buttons"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
@@ -49,6 +54,45 @@
 &lt;/a&gt;</code></pre>
       </div>
     </div>
+    <div class="twelve columns" style="margin-top: 50px;">
+        <h5>Usage in a Table</h5>
+        <p>Table cells are smaller than buttons, so there's a special case for using the <code>.button-icon</code> class in table cells.</p>
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Sex</th>
+              <th>Location</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dave Gamache</td>
+              <td>26</td>
+              <td>Male</td>
+              <td>San Francisco</td>
+              <td>
+                <a class="button button-icon"><i class="fa fa-eye"></i></a>
+                <a class="button button-icon"><i class="fa fa-pencil"></i></a>
+                <a class="button button-icon"><i class="fa fa-remove"></i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>Dwayne Johnson</td>
+              <td>42</td>
+              <td>Male</td>
+              <td>Hayward</td>
+              <td>
+                <a class="button button-icon"><i class="fa fa-eye"></i></a>
+                <a class="button button-icon"><i class="fa fa-pencil"></i></a>
+                <a class="button button-icon"><i class="fa fa-remove"></i></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   </div>
 </body>
 </html>

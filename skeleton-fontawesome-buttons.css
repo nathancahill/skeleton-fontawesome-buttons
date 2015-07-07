@@ -7,4 +7,17 @@
     width: 38px;
     line-height: 38px;
     font-size: 1.4rem;
+    vertical-align: top;
+}
+
+td .button-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+td .button-icon .fa {
+    width: 28px;
+    line-height: 28px;
+    font-size: 1.3rem;
 }
